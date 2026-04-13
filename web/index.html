@@ -6,6 +6,62 @@
     <title>Prefeitura X</title>
   </head>
   <body>
-    <h1>Prefeitura X</h1>
+    <header>
+      <h1 class="logo">PrefeituraX</h1>
+
+      <nav aria-label="menu principal">
+        <button class="menu-toggle" aria-controls="menu" aria-expanded="false">
+          ---
+        </button>
+
+        <ul id="menu" class="menu">
+          <li><a href="sobre">Sobre</a></li>
+          <li><a href="servicos">Serviços</a></li>
+          <li><a href="noticias">Noticias</a></li>
+          <li><a href="login.html">Acessar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner">
+        <img src="img/prefeitura.png" alt="predio da prefeitura da cidade" />
+        <div class="banner-texto">
+          <h2>Trabalhando por uma cidade melhor</h2>
+          <p>transparência,inovação e cuidado com o cidadaõ.</p>
+        </div>
+      </section>
+      <section id="sobre" class="conteiner">
+        <h2>Sobre a prefeitura</h2>
+        <p>
+          Essa é a cidade de X,aqui o povo é feliz, temos educação, saúde e
+          lazer.
+        </p>
+      </section>
+
+      <section id="servicos" class="conteiner cards">
+        <h2>Serviços ao cidadão</h2>
+
+        <article class="card">
+          <h3>Educação</h3>
+          <p>Informações sobre escolas e programas educacionais</p>
+        </article>
+
+        <article class="card">
+          <h3>Saúde</h3>
+          <p>Postos de saúde,atendimento e campanhas.</p>
+        </article>
+
+        <article class="card">
+          <h3>transparência</h3>
+          <p>GAstos públicos e prestação de contas.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Prefeitura X - feito por Marcio coutinho</p>
+    </footer>
+    <script src="JS/script.js"></script>
   </body>
 </html>
